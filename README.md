@@ -4,7 +4,7 @@ v1.2.1
 
 The worlds smallest CSS grid system.
 
-It's (minus comments) **218 bytes** minified and **150 bytes** gzipped.
+Minus the comments, it's **218 bytes** minified and **150 bytes** gzipped.
 
 ## Usage
 
@@ -41,7 +41,7 @@ It's (minus comments) **218 bytes** minified and **150 bytes** gzipped.
 
 planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) `[attr^=value]`, so:
 
-1. planck classes `x1` to `x6` **must** be specified **first** within your class definition:
+- planck classes `x1` to `x6` **must** be specified **first** within your class definition:
 
 *Good*
 ```html
@@ -52,7 +52,7 @@ planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/
 	<div class="class x3">
 ```
 
-2. You can't start with a non planck class definition that begins with the letter `x`:
+- You can't start with a non planck class definition that begins with the letter `x`:
 
 *Good*
 ```html
