@@ -37,7 +37,31 @@ The worlds smallest CSS grid system.
 	</div>
 ```
 
-- Planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) `[attr^=value]`, so the column classes `x1` to `x6` **must** be specified **first** within your markup.
+## Caution
+
+planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) `[attr^=value]` 
+
+- plank classes `x1` to `x6` **must** be specified **first** within your class definition:
+
+:white_check_mark:
+```html
+	<div class="x3 class">
+```
+:x:
+```html
+	<div class="class x3">
+```
+
+- You can't start with a non plank class definition that begins with `x`:
+
+:white_check_mark:
+```html
+	<div class="x4 xlyophone">
+```
+:x:
+```html
+	<div class="xylophone">
+```
 
 ## Notes
 
