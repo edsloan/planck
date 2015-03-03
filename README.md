@@ -1,12 +1,12 @@
 # planck
 
-v1.1.0
+v1.2.0
 
 The worlds smallest CSS grid system.
 
 ## Size
 
-- **272 bytes** minified 
+- **275 bytes** minified 
 - **165 bytes** gzipped  
 (minus comments)
 
@@ -23,9 +23,12 @@ The worlds smallest CSS grid system.
 - Example structure:
 
 ```html
+<div class="r">
 	<div class="x6">
 		<!--full width-->
 	</div>
+</div>
+<div class="r">
 	<div class="x2">
 		<!--one-third column-->
 	</div>
@@ -35,6 +38,7 @@ The worlds smallest CSS grid system.
 	<div class="x2">
 		<!--one-third column-->
 	</div>
+</div>
 ```
 
 ## Caution
