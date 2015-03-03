@@ -1,12 +1,14 @@
 # planck
 
-v1.0.0
+v1.0.1
 
 The worlds smallest CSS grid system
 
-## How small?
+## Size
 
-It's 284 bytes minified and 168 bytes gzipped (minus comments).
+- *284 bytes* minified 
+- *168 bytes* gzipped
+(minus comments)
 
 ## Usage
 
@@ -35,7 +37,9 @@ It's 284 bytes minified and 168 bytes gzipped (minus comments).
 	</div>
 ```
 
+- Planck uses the [Prefix attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) `[attr^=value]`, so the column class `x1` to `x6` must be specified first within your markup.
+
 ## Notes
 
-- Uses: Based on [g.css](https://github.com/edsloan/g.css)
+- Based on [g.css](https://github.com/edsloan/g.css)
 - Author(s): [@edsloan](https://twitter.com/edsloandev)
