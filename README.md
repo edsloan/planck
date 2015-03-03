@@ -1,14 +1,10 @@
 # planck
 
-v1.2.0
+v1.2.1
 
 The worlds smallest CSS grid system.
 
-## Size
-
-- **275 bytes** minified 
-- **165 bytes** gzipped  
-(minus comments)
+It's (minus comments) **218 bytes** minified and **150 bytes** gzipped.
 
 ## Usage
 
@@ -25,7 +21,7 @@ The worlds smallest CSS grid system.
 ```html
 <div class="r">
 	<div class="x6">
-		<!--full width-->
+		<!--full-width column-->
 	</div>
 </div>
 <div class="r">
@@ -43,9 +39,9 @@ The worlds smallest CSS grid system.
 
 ## Caution
 
-planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) `[attr^=value]` 
+planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) `[attr^=value]`, so:
 
-- planck classes `x1` to `x6` **must** be specified **first** within your class definition:
+1. planck classes `x1` to `x6` **must** be specified **first** within your class definition:
 
 *Good*
 ```html
@@ -56,7 +52,7 @@ planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/
 	<div class="class x3">
 ```
 
-- You can't start with a non planck class definition that begins with `x`:
+2. You can't start with a non planck class definition that begins with the letter `x`:
 
 *Good*
 ```html
@@ -69,5 +65,6 @@ planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/
 
 ## Notes
 
+- Support: Chrome 10+, Firefox 29+, Safari 5.1+, IE 9+, Opera 9.2+, iOS Safari 5.1+ & Android 4+
 - Based on [g.css](https://github.com/edsloan/g.css)
 - Author(s): [@edsloan](https://twitter.com/edsloandev)
