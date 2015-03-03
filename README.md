@@ -41,24 +41,24 @@ The worlds smallest CSS grid system.
 
 planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) `[attr^=value]` 
 
-- plank classes `x1` to `x6` **must** be specified **first** within your class definition:
+- planck classes `x1` to `x6` **must** be specified **first** within your class definition:
 
-Good
+*Good*
 ```html
 	<div class="x3 class">
 ```
-Bad
+*Bad*
 ```html
 	<div class="class x3">
 ```
 
-- You can't start with a non plank class definition that begins with `x`:
+- You can't start with a non planck class definition that begins with `x`:
 
-Good
+*Good*
 ```html
 	<div class="x4 xlyophone">
 ```
-Bad
+*Bad*
 ```html
 	<div class="xylophone">
 ```
