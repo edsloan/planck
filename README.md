@@ -43,22 +43,22 @@ planck uses the [prefix attribute selector](https://developer.mozilla.org/en-US/
 
 - plank classes `x1` to `x6` **must** be specified **first** within your class definition:
 
-:white_check_mark:
+Good
 ```html
 	<div class="x3 class">
 ```
-:x:
+Bad
 ```html
 	<div class="class x3">
 ```
 
 - You can't start with a non plank class definition that begins with `x`:
 
-:white_check_mark:
+Good
 ```html
 	<div class="x4 xlyophone">
 ```
-:x:
+Bad
 ```html
 	<div class="xylophone">
 ```
