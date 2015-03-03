@@ -6,9 +6,9 @@ The worlds smallest CSS grid system.
 
 ## Size
 
-(minus comments)
 - **284 bytes** minified 
-- **168 bytes** gzipped
+- **168 bytes** gzipped  
+(minus comments)
 
 ## Usage
 
