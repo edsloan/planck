@@ -4,7 +4,7 @@ v1.2.1
 
 The worlds smallest CSS grid system.
 
-Minus the comments, it's **218 bytes** minified and **150 bytes** gzipped.
+It's **218 bytes** minified and **150 bytes** gzipped (minus the comments).
 
 ## Usage
 
