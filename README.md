@@ -1,13 +1,13 @@
 # planck
 
-v1.0.1
+v1.1.0
 
 The worlds smallest CSS grid system.
 
 ## Size
 
-- **284 bytes** minified 
-- **168 bytes** gzipped  
+- **272 bytes** minified 
+- **165 bytes** gzipped  
 (minus comments)
 
 ## Usage
